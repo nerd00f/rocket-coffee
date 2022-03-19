@@ -6,7 +6,7 @@
 }
 
 :root {
-  --backgrond: #000;
+  --background: #000;
   --text-color: #fff;
   --button: #8257e5;
   --border: #29292e;
@@ -27,7 +27,7 @@ img {
 main {
   min-height: 100vh;
   height: auto;
-  background-color: var(--backgrond);
+  background-color: var(--background);
 }
 
 .overlays {
@@ -164,7 +164,7 @@ main {
 
 .hero--title span {
   font-size: 4.7rem;
-  color: var(--backgrond);
+  color: var(--background);
   text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button),
     -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
@@ -228,7 +228,7 @@ main {
     opacity: 1;
     flex-direction: column;
     align-items: unset;
-    background-color: var(--backgrond);
+    background-color: var(--background);
     width: 100%;
     gap: 0;
     transition: opacity 0.4s;
